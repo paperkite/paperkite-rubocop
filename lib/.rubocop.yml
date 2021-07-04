@@ -3,10 +3,13 @@ require:
   - rubocop-rspec
   - rubocop-performance
 
+# Each extension has it's cops in it's own config file
 inherit_from:
   - .rubocop_rails.yml
   - .rubocop_rspec.yml
   - .rubocop_performance.yml
+
+# Layout
 
 Layout/AccessModifierIndentation:
   EnforcedStyle: outdent
@@ -20,6 +23,8 @@ Layout/FirstHashElementIndentation:
 
 Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
+
+# Style
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
