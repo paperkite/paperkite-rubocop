@@ -1,2 +1,5 @@
 inherit_from:
-  - ./lib/.rubocop.yml
+  - ./config/base.yml
+
+Gemspec/RequiredRubyVersion:
+  Enabled: false

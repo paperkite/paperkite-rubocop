@@ -5,9 +5,9 @@ require:
 
 # Each extension has it's cops in it's own config file
 inherit_from:
-  - .rubocop_rails.yml
-  - .rubocop_rspec.yml
-  - .rubocop_performance.yml
+  - performance.yml
+  - rails.yml
+  - rspec.yml
 
 # Layout
 
