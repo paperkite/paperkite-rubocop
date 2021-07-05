@@ -9,6 +9,11 @@ inherit_from:
   - rails.yml
   - rspec.yml
 
+AllCops:
+  NewCops: enable
+  Exclude:
+    - bin/*
+
 # Layout
 
 Layout/AccessModifierIndentation:
@@ -28,3 +33,7 @@ Layout/FirstArrayElementIndentation:
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
+
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - Gemfile
