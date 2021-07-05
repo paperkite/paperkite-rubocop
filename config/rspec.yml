@@ -1,1 +1,4 @@
 # Seperate config file for the rubocop-rspec cops
+
+RSpec/NestedGroups:
+  Max: 5
