@@ -1,0 +1,51 @@
+require:
+  - rubocop-rails
+  - rubocop-rspec
+  - rubocop-performance
+
+# Each extension has it's cops in it's own config file
+inherit_from:
+  - performance.yml
+  - rails.yml
+  - rspec.yml
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - bin/*
+
+# Layout
+
+Layout/AccessModifierIndentation:
+  EnforcedStyle: outdent
+
+Layout/HashAlignment:
+  EnforcedHashRocketStyle: table
+  EnforcedColonStyle: table
+
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/FirstArrayElementIndentation:
+  EnforcedStyle: consistent
+
+# Style
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - Gemfile
+
+# Metrics
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*
+
+Metrics/ClassLength:
+  Max: 120
+
+Metrics/MethodLength:
+  Max: 16
