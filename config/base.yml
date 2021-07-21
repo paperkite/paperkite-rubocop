@@ -38,11 +38,16 @@ Style/FrozenStringLiteralComment:
   Exclude:
     - Gemfile
 
+Style/IfUnlessModifier:
+  Exclude:
+    - config/**/*
+
 # Metrics
 
 Metrics/BlockLength:
   Exclude:
     - spec/**/*
+    - config/**/*
 
 Metrics/ClassLength:
   Max: 120
