@@ -14,6 +14,12 @@ AllCops:
   Exclude:
     - bin/*
 
+# Lint
+
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - spec/**/*
+
 # Layout
 
 Layout/AccessModifierIndentation:
