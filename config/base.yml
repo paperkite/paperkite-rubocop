@@ -43,10 +43,16 @@ Style/StringLiterals:
 Style/FrozenStringLiteralComment:
   Exclude:
     - Gemfile
+    - db/**/*
 
 Style/IfUnlessModifier:
   Exclude:
     - config/**/*
+
+Style/Documentation:
+  Exclude:
+    - config/**/*
+    - db/**/*
 
 # Metrics
 
