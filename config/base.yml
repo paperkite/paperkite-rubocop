@@ -49,3 +49,6 @@ Metrics/ClassLength:
 
 Metrics/MethodLength:
   Max: 16
+
+RSpec/MultipleMemoizedHelpers:
+  Max: 8
