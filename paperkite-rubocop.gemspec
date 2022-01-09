@@ -11,10 +11,10 @@ Gem::Specification.new do |spec|
   spec.license  = "MIT"
 
   spec.files = [
-    "lib/base.yml",
-    "lib/performance.yml",
-    "lib/rails.yml",
-    "lib/rspec.yml"
+    "config/base.yml",
+    "config/performance.yml",
+    "config/rails.yml",
+    "config/rspec.yml"
   ]
 
   spec.add_dependency "rubocop",             "~> 1.14.0"
