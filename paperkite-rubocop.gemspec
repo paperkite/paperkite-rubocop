@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name    = "paperkite-rubocop"
-  spec.version = "1.0.0-beta.6"
+  spec.version = "1.1.0-beta.0"
   spec.authors = ["Montgomery Anderson"]
   spec.email   = "montgomery.anderson@paperkite.co.nz"
 
@@ -17,13 +17,13 @@ Gem::Specification.new do |spec|
     "config/rspec.yml"
   ]
 
-  spec.add_dependency "rubocop",             "~> 1.14.0"
-  spec.add_dependency "rubocop-performance", "~> 1.11.2"
-  spec.add_dependency "rubocop-rails",       "~> 2.10.1"
+  spec.add_dependency "rubocop",             "~> 1.43.0"
+  spec.add_dependency "rubocop-performance", "~> 1.15.2"
+  spec.add_dependency "rubocop-rails",       "~> 2.17.4"
   spec.add_dependency "rubocop-rspec",       "~> 2.3.0"
 
-  spec.add_development_dependency "rubocop",             "~> 1.14.0"
-  spec.add_development_dependency "rubocop-performance", "~> 1.11.2"
-  spec.add_development_dependency "rubocop-rails",       "~> 2.10.1"
-  spec.add_development_dependency "rubocop-rspec",       "~> 2.3.0"
+  spec.add_development_dependency "rubocop",             "~> 1.43.0"
+  spec.add_development_dependency "rubocop-performance", "~> 1.15.2"
+  spec.add_development_dependency "rubocop-rails",       "~> 2.17.4"
+  spec.add_development_dependency "rubocop-rspec",       "~> 2.17.0"
 end
