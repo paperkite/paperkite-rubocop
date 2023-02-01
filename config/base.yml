@@ -51,9 +51,7 @@ Style/IfUnlessModifier:
     - config/**/*
 
 Style/Documentation:
-  Exclude:
-    - config/**/*
-    - db/**/*
+  Enabled: false
 
 # Metrics
 
