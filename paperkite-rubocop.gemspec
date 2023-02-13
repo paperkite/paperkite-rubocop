@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name    = "paperkite-rubocop"
-  spec.version = "1.1.0-beta.1"
+  spec.version = "1.1.1"
   spec.authors = ["Montgomery Anderson"]
   spec.email   = "montgomery.anderson@paperkite.co.nz"
 
