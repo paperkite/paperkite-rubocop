@@ -26,6 +26,9 @@ Lint/AmbiguousBlockAssociation:
 Layout/AccessModifierIndentation:
   EnforcedStyle: outdent
 
+Layout/ArgumentAlignment:
+  EnforcedStyle: with_fixed_indentation
+
 Layout/FirstMethodArgumentLineBreak:
   AllowMultilineFinalElement: true
 
