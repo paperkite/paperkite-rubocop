@@ -26,6 +26,15 @@ Lint/AmbiguousBlockAssociation:
 Layout/AccessModifierIndentation:
   EnforcedStyle: outdent
 
+Layout/FirstMethodArgumentLineBreak:
+  AllowMultilineFinalElement: true
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Layout/ParameterAlignment:
+  EnforcedStyle: with_fixed_indentation
+
 Layout/HashAlignment:
   EnforcedHashRocketStyle: table
   EnforcedColonStyle: table
