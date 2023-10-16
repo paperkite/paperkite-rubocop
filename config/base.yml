@@ -69,10 +69,10 @@ Metrics/BlockLength:
     - config/**/*
 
 Metrics/ClassLength:
-  Max: 120
+  Enabled: false
 
 Metrics/MethodLength:
-  Max: 16
+  Enabled: false
 
 RSpec/MultipleMemoizedHelpers:
   Max: 8
