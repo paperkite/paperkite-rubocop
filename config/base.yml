@@ -20,6 +20,8 @@ AllCops:
 Lint/AmbiguousBlockAssociation:
   Exclude:
     - spec/**/*
+Lint/MissingSuper:
+  Enabled: false
 
 # Layout
 
