@@ -17,14 +17,14 @@ Gem::Specification.new do |spec|
     "config/rspec.yml"
   ]
 
-  spec.add_dependency "rubocop",             "~> 1.43.0"
-  spec.add_dependency "rubocop-performance", "~> 1.15.2"
-  spec.add_dependency "rubocop-rails",       "~> 2.17.4"
-  spec.add_dependency "rubocop-rspec",       "~> 2.3.0"
+  spec.add_dependency "rubocop",             "~> 1.64.0"
+  spec.add_dependency "rubocop-performance", "~> 1.16.0"
+  spec.add_dependency "rubocop-rails",       "~> 2.18.0"
+  spec.add_dependency "rubocop-rspec",       "~> 2.19.0"
 
-  spec.add_development_dependency "rubocop",             "~> 1.43.0"
-  spec.add_development_dependency "rubocop-performance", "~> 1.15.2"
-  spec.add_development_dependency "rubocop-rails",       "~> 2.17.4"
-  spec.add_development_dependency "rubocop-rspec",       "~> 2.17.0"
-  spec.metadata["rubygems_mfa_required"] = "false"
+  spec.add_development_dependency "rubocop",             "~> 1.64.0"
+  spec.add_development_dependency "rubocop-performance", "~> 1.16.0"
+  spec.add_development_dependency "rubocop-rails",       "~> 2.18.0"
+  spec.add_development_dependency "rubocop-rspec",       "~> 2.19.0"
+  spec.metadata["rubygems_mfa_required"] = "true"
 end
