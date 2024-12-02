@@ -9,17 +9,10 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - uses: ruby/setup-ruby@v1
-    - name: Install dependencies
-      run: bundle install
-    - name: Publish to RubyGems
-      env:
-        RUBYGEMS_API_KEY: ${{ secrets.RUBYGEMS_API_KEY }}
-      run: |
-        mkdir -p $HOME/.gem
-        echo -e "---\n:rubygems_api_key: ${RUBYGEMS_API_KEY}" > $HOME/.gem/credentials
-        chmod 0600 $HOME/.gem/credentials
-        gem build paperkite-rubocop.gemspec
-        gem push paperkite-rubocop-*.gem
+    - uses: rubygems/release-gem@v1
