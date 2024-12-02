@@ -1,2 +1,5 @@
+# Built gem
+pkg/
+
 # OSX filesystem files
 *.DS_store

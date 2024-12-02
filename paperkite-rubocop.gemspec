@@ -8,7 +8,6 @@ Gem::Specification.new do |spec|
 
   spec.summary  = "PaperKite's shared Rubocop configuration"
   spec.homepage = "https://rubygems.org/paperkite/paperkite-rubocop"
-  spec.license  = "UNLICENSED"
 
   spec.files = [
     "config/base.yml",
@@ -16,6 +15,10 @@ Gem::Specification.new do |spec|
     "config/rails.yml",
     "config/rspec.yml"
   ]
+
+  spec.add_development_dependency "bundler", "~> 2.5.23"
+  spec.add_development_dependency "gem-release"
+  spec.add_development_dependency "rake"
 
   spec.add_dependency "rubocop",              "~> 1.69.0"
   spec.add_dependency "rubocop-performance",  "~> 1.23.0"
