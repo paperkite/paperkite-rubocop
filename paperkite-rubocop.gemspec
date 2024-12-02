@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
 
   spec.summary  = "PaperKite's shared Rubocop configuration"
   spec.homepage = "https://rubygems.org/paperkite/paperkite-rubocop"
-  spec.license  = "MIT"
+  spec.license  = "UNLICENSED"
 
   spec.files = [
     "config/base.yml",
