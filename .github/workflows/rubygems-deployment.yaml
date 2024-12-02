@@ -18,5 +18,8 @@ jobs:
       env:
         RUBYGEMS_API_KEY: ${{ secrets.RUBYGEMS_API_KEY }}
       run: |
+        mkdir -p $HOME/.gem
+        echo -e "---\n:rubygems_api_key: ${RUBYGEMS_API_KEY}" > $HOME/.gem/credentials
+        chmod 0600 $HOME/.gem/credentials
         gem build paperkite-rubocop.gemspec
         gem push paperkite-rubocop-*.gem
